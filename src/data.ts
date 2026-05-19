@@ -7,7 +7,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Piano-driven and orchestral pieces for drama, romance, reflection, documentaries, and emotional scenes.',
     useCases: 'Drama, documentary, romance, reflective moments.',
     icon: Film,
-    audioSrc: 'public/audio/25-Black and White.mp3', // Placeholder audio
+    audioSrc: '/audio/25-Black and White.mp3', // Placeholder audio
   },
   {
     id: 'adventure',
@@ -15,7 +15,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Melodic themes for magical worlds, journeys, RPGs, animation, and fantasy storytelling.',
     useCases: 'RPG, animation, worldbuilding, main themes.',
     icon: Tv,
-    audioSrc: 'public/audio/2-Piratas 1.mp3',
+    audioSrc: '/audio/2-Piratas 1.mp3',
   },
   {
     id: 'epic',
@@ -23,7 +23,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Energetic, bold, high-impact cues for battles, trailers, sports, heroic moments, and climactic scenes.',
     useCases: 'Trailers, action, boss battles, sports.',
     icon: MonitorPlay,
-    audioSrc: 'public/audio/Final Boss.mp3',
+    audioSrc: '/audio/Final Boss.mp3',
   },
   {
     id: 'dark',
@@ -31,7 +31,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Tension, mystery, and atmospheric cues for thrillers, dramatic reveals, and psychological scenes.',
     useCases: 'Thriller, mystery, horror-lite, drama.',
     icon: Clapperboard,
-    audioSrc: 'public/audio/Nightmare.mp3',
+    audioSrc: '/audio/Nightmare.mp3',
   },
   {
     id: 'game',
@@ -39,7 +39,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Loopable and game-inspired music influenced by NES, GBA, tower defense, arcade, and retro aesthetics.',
     useCases: 'Game loops, menus, levels, retro titles.',
     icon: Gamepad2,
-    audioSrc: 'public/audio/Theme_6.ogg',
+    audioSrc: '/audio/Theme_6.ogg',
   },
   {
     id: 'latin',
@@ -47,7 +47,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Arrangements and productions blending pop energy, contemporary harmony, and live performance.',
     useCases: 'Artists, live bands, sync, branded content.',
     icon: Music,
-    audioSrc: 'public/audio/Himno de Placer.mp3',
+    audioSrc: '/audio/Himno de Placer.mp3',
   },
   {
     id: 'piano',
@@ -55,7 +55,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Expressive piano music for emotional storytelling, intimate moments, and reflective scenes.',
     useCases: 'Drama, romance, solo piano, documentary.',
     icon: Piano,
-    audioSrc: 'public/audio/Clarity.mp3',
+    audioSrc: '/audio/Clarity.mp3',
   },
   {
     id: 'lofi',
@@ -63,7 +63,7 @@ export const MUSIC_CATEGORIES = [
     description: 'Warm, relaxed, and textural cues for lifestyle content, study moods, urban visuals, and soft transitions.',
     useCases: 'Lifestyle, background, vlogs, chill scenes.',
     icon: Radio,
-    audioSrc: 'public/audio/5-A las 6 pm (V).mp3',
+    audioSrc: '/audio/5-A las 6 pm (V).mp3',
   },
 ];
 
@@ -75,8 +75,8 @@ export const PROJECTS = [
     role: 'Composer, Pianist, Producer',
     description: 'An intimate piano project built around raw emotion, improvisation, and personal storytelling.',
     tags: ['Piano', 'Emotional', 'Instrumental'],
-    image: 'public/images/Mistakes.png',
-    audioSrc: 'public/audio/Cuestión de Tiempo.mp3',
+    image: '/images/Mistakes.png',
+    audioSrc: '/audio/Cuestión de Tiempo.mp3',
     link: 'https://open.spotify.com/album/7laqikCbd9bt9MvRfAx5XG', // Add your link here
   },
   {
@@ -86,8 +86,8 @@ export const PROJECTS = [
     role: 'Composer, Pianist, Producer',
     description: 'An emotional piano piece that reached over 1.5M streams on Amazon Music.',
     tags: ['Piano', 'Emotional', 'Streaming'],
-    image: 'public/images/feelings.png',
-    audioSrc: 'public/audio/Feelings.mp3',
+    image: '/images/feelings.png',
+    audioSrc: '/audio/Feelings.mp3',
     link: 'https://open.spotify.com/track/68wqSzfzcx0Z3kTGYM7QwI', // Add your link here
   },
   {
@@ -97,8 +97,8 @@ export const PROJECTS = [
     role: 'Production, Arrangement, Original',
     description: 'An Indie Dominican award-nominated Lo-Fi fusion project released under the alter ego Mr. Keys.',
     tags: ['Lo-Fi', 'Fusion', 'Production'],
-    image: 'public/images/Desconocidos Portada Oficial.png', // Placeholder
-    audioSrc: 'public/audio/lovers.mp3', // Placeholder
+    image: '/images/Desconocidos Portada Oficial.png', // Placeholder
+    audioSrc: '/audio/lovers.mp3', // Placeholder
     link: 'https://open.spotify.com/album/4a6qupqsVuBbLaYCFjntck', 
   },
   {
@@ -108,7 +108,7 @@ export const PROJECTS = [
     role: 'Arranger, Producer, Keyboardist',
     description: 'Arrangements and productions for artists, live bands, and creative projects across Latin, pop, cinematic, and contemporary styles.',
     tags: ['Arranging', 'Production', 'Artists'],
-    image: 'public/images/soy.jpg',
+    image: '/images/soy.jpg',
     youtubeId: 'J-g-nWjY9CA', // Reemplaza esto con el ID de tu video de YouTube (e.g. dQw4w9WgXcQ)
     link: 'https://youtu.be/J-g-nWjY9CA', // Add your link here
   },
@@ -119,7 +119,7 @@ export const PROJECTS = [
     role: 'Music Director, Pianist, Arranger',
     description: 'Experience supporting live performances, band arrangements, rehearsals, and event music coordination.',
     tags: ['Live', 'Direction', 'Performance'],
-    image: 'public/images/name.jpg',
+    image: '/images/name.jpg',
     youtubeId: 'v=oSiHkKZnK-g', // Reemplaza esto con el ID de tu video
     link: 'https://youtu.be/oSiHkKZnK-g?list=RDoSiHkKZnK-g', // Add your link here
   },
@@ -130,7 +130,7 @@ export const PROJECTS = [
     role: 'Composer',
     description: 'Original score created for a short film contest entry, demonstrating cinematic arrangement and atmospheric storytelling.',
     tags: ['Film', 'Scoring', 'Cinematic'],
-    image: 'public/images/maxresdefault.jpg', // Placeholder
+    image: '/images/maxresdefault.jpg', // Placeholder
     youtubeId: 'v=OoCfn91Hcpw', 
     link: 'https://youtu.be/OoCfn91Hcpw', 
   },
@@ -146,8 +146,8 @@ export const GAME_CREDITS = [
     context: 'Game jam / indie demo',
     link: 'https://jake-aldridge.itch.io/velhotorni', // Placeholder link
     description: 'Original 8-bit music and sfx, blending retro game aesthetics with playful character-driven energy.',
-    image: 'public/images/velo_5.png', // Placeholder image path
-    audioSrc: 'public/audio/Theme_1_Auto.mp3',
+    image: '/images/velo_5.png', // Placeholder image path
+    audioSrc: '/audio/Theme_1_Auto.mp3',
   },
   {
     id: 'astroclimb',
@@ -158,8 +158,8 @@ export const GAME_CREDITS = [
     context: 'Game jam / indie demo',
     link: 'https://denzioed.itch.io/astroclimb',
     description: 'Composed music and sfx for a retro climbing game with arcade energy and sci-fi atmosphere.',
-    image: 'public/images/astro_climb.png',
-    audioSrc: 'public/audio/Space 1 Loop.mp3',
+    image: '/images/astro_climb.png',
+    audioSrc: '/audio/Space 1 Loop.mp3',
   },
   {
     id: 'greens-dungeon',
@@ -170,8 +170,8 @@ export const GAME_CREDITS = [
     context: 'Mobile indie RPG',
     link: 'https://apkpure.com/green-s-dungeon-text-rpg/com.zaxstudio.greensdungeon', 
     description: 'Composed music and sfx for a text RPG, supporting dungeon exploration and interactive player progression.',
-    image: 'public/images/gd_3.png',
-    audioSrc: 'public/audio/Batalla Normal.mp3',
+    image: '/images/gd_3.png',
+    audioSrc: '/audio/Batalla Normal.mp3',
   },
   {
     id: 'dungeonmania',
@@ -182,8 +182,8 @@ export const GAME_CREDITS = [
     context: 'Game jam / indie demo',
     link: 'https://wifitrust.itch.io/dungeonmania',
     description: 'Composed original music for a dungeon-themed game, supporting fantasy exploration and adventure-driven gameplay.',
-    image: 'public/images/dungeon.png', 
-    audioSrc: 'public/audio/Final Boss Battle 1.mp3',
+    image: '/images/dungeon.png', 
+    audioSrc: '/audio/Final Boss Battle 1.mp3',
   },
   {
     id: 'quota',
@@ -194,8 +194,8 @@ export const GAME_CREDITS = [
     context: 'Game jam / demo',
     link: 'https://calzark.itch.io/quota',
     description: 'Created musical support for a compact interactive experience.',
-    image: 'public/images/quota.png', 
-    audioSrc: 'public/audio/Danger_Level.mp3',
+    image: '/images/quota.png', 
+    audioSrc: '/audio/Danger_Level.mp3',
   }
 ];
 
