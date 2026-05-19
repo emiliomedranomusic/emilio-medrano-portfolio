@@ -1,0 +1,6 @@
+{
+  "name": "Emilio Medrano | Composer & Producer",
+  "description": "Miami-based Dominican composer, producer, arranger, and pianist creating cinematic, emotional, and game-inspired music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
