@@ -168,7 +168,7 @@ export const GAME_CREDITS = [
     role: 'Music & Sound Effects Contributor',
     scope: 'Contributed music and sound effects',
     context: 'Mobile indie RPG',
-    link: 'https://apkpure.com/green-s-dungeon-text-rpg/com.zaxstudio.greensdungeon', 
+    link: 'https://rondi-zax-studio.itch.io/greens-dungeon', 
     description: 'Composed music and sfx for a text RPG, supporting dungeon exploration and interactive player progression.',
     image: '/images/gd_3.png',
     audioSrc: '/audio/Batalla Normal.mp3',
