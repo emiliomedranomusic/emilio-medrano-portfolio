@@ -1,3 +1,5 @@
+**Language / Idioma:** [English](README.md) · [Español](README.es.md)
+
 # Emilio Medrano — Portfolio
 
 Personal portfolio for **Emilio Medrano**, a musician, composer, producer, educator, and software engineer based in Miami.
